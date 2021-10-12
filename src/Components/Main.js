@@ -1,0 +1,14 @@
+import Box from './Box'
+
+const Main = () => {
+    return(
+    <main class="boxes">
+            <Box name="Maria" title="CEO" age="29"/>
+            <Box name="Kati" title="Designer" age="25"/>
+            <Box name="Karin" title="Developer" age="45"/>
+            <Box name="Karin" title="Developer" age="45"/>
+    </main>
+    )
+  }
+
+  export default Main;
