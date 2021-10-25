@@ -1,6 +1,6 @@
 
 import './App.css';
-import Main from './Components/Main'
+import MainC from './Components/MainC'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <div class="max-width">
         <Header />
-        <Main />
+        <MainC />
         <Footer />
       </div>  
     </>
