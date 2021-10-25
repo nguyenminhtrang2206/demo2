@@ -28,8 +28,13 @@ class MainC extends Component {
     ],
   };
 
+  changeNameHandler = () =>{
+    console.log("WOW");
+  }
+
   render() {
     return (
+      <>
       <main>
         <Box
           name={this.state.persons[0].name}
@@ -47,6 +52,9 @@ class MainC extends Component {
           title={this.state.persons[2].title}
         />
       </main>
+      <button onClick = {this.changeNameHandler}>Click me</button>
+      
+      </>
     );
   }
 }
