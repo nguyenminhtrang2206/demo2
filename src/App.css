@@ -9,6 +9,11 @@ footer {
   margin: 2rem;
   padding: 2rem;
 }
+
+nav {
+  display: inline-block;
+  list-style: none;
+}
 main {
   display: flex;
   flex-wrap: wrap;

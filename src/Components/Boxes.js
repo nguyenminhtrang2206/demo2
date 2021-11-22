@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Box from "./Box";
 
-class MainC extends Component {
+class Boxes extends Component {
   state = {
     persons: [
       { id: 1, name: "Margit", age: 25, title: "CEO" },
@@ -29,4 +29,4 @@ class MainC extends Component {
   }
 }
 
-export default MainC;
+export default Boxes;

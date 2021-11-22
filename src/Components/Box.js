@@ -1,18 +1,18 @@
-const Box = (props) => {
+const Box = ({ name, title, age }) => {
   const addEventHandler = () => {
     console.log("WOW from box");
   };
 
-    return (
-      <div className="box">
-        <div>
-          <h2>{props.name}</h2>
-          <p>Title: {props.title}</p>
-          <p>Age: {props.age}</p>
-          <button onClick ={addEventHandler}>Click me</button>
-        </div>
+  return (
+    <div className="box">
+      <div>
+        <h2>{name}</h2>
+        <p>Title: {title}</p>
+        <p>Age: {age}</p>
+        <button onClick={addEventHandler}>Click me</button>
       </div>
-    );
-  };
-  
-  export default Box;
+    </div>
+  );
+};
+
+export default Box;
